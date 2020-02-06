@@ -1,0 +1,6 @@
+---
+applications:
+  - name: zipkin-server
+    path: build/libs/springboot-zipkin-server.jar
+    services:
+    - <mysql-service-name>
